@@ -9,6 +9,8 @@ int check_cycle(listint_t *list)
 {
 	listint_t *current = list;
 
+	if (current == NULL)
+		return (0);
 	if (current->next != NULL)
 		current = current->next;
 	else
