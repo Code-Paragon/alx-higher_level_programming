@@ -11,4 +11,4 @@ def number_keys(a_dictionary):
     if a_dictionary == {} or a_dictionary is None:
         return (0)
     key_list = list(a_dictionary)
-    return(len(key_list))
+    return (len(key_list))
