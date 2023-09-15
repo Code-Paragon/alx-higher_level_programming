@@ -10,8 +10,10 @@ def search_replace(my_list, search, replace):
     Returns:
         new list with eeplaced elements
     """
-    if my_list is None or len(my_list) == 0:
+    if my_list is None:
         return(None)
+    if len(my_list) == 0:
+        return([])
     new_list = []
     for element in my_list:
         if element == search:
