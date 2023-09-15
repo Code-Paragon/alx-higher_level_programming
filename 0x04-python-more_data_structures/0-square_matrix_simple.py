@@ -13,4 +13,4 @@ def square_matrix_simple(matrix=[]):
     new_matrix = []
     for element in matrix:
         new_matrix.append([x**2 for x in element])
-    return(new_matrix)
+    return (new_matrix)

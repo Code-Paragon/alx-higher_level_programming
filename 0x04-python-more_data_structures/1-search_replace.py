@@ -11,13 +11,13 @@ def search_replace(my_list, search, replace):
         new list with eeplaced elements
     """
     if my_list is None:
-        return(None)
+        return (None)
     if len(my_list) == 0:
-        return([])
+        return ([])
     new_list = []
     for element in my_list:
         if element == search:
             new_list.append(replace)
         else:
             new_list.append(element)
-    return(new_list)
+    return (new_list)
